@@ -36,7 +36,7 @@ lista = [1, 2.0, '3', [4, 5, 6]]
 
 #Acessando elementos de uma lista
 lista[0] #primeiro valor
-litsa[3] #ultimo valor
+lista[3] #ultimo valor
 lista[-1] #também é o último valor!
 lista[3][1] #Acessa o elemento 1 dentro da lista que esta contida na posicao 3 da lista inicial
 
@@ -75,16 +75,12 @@ math.sqrt(4) #sqrt é a função squareroot ou raiz quadrada
 print('Oi, Pyladies!')
 
 #Exercicio 2: Faça um programa que converta de centímetros para metros
-valor_Cm = input('Digite seu valor em cm: ')
-valor_Cm = int(valor_Cm)
+valor_cm = input('Digite seu valor em cm: ')
+valor_cm = int(valor_cm)
 print(valor_cm/100)
 
 #Exercício 3: Faça um programa que peça um nome e um telefone e faça uma lista telefônica
 listatel = {}
 nome = raw_input('Digite o nome: ')
 telefone = raw_input('Digite o telefone: ')
-lista_telefonica[nome] = telefone
-
-
-
-
+listatel[nome] = telefone
